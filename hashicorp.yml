@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become_method: sudo
+  become_user: root
+  become: true
+
+  roles:
+    - terraform
+    - vault
+    - consul
+    - nomad
+    - packer

@@ -1,0 +1,3 @@
+---
+terraform_version : "{{ lookup('env','TERRAFORM_VERSION') | default('0.11.5', true) }}"
+

@@ -1,0 +1,3 @@
+---
+nomad_version : "{{ lookup('env','NOMAD_VERSION') | default('0.7.1', true) }}"
+
